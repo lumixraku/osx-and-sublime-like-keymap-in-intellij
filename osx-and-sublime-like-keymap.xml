@@ -3,10 +3,16 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="AddNewTabToTheEndMode">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
   <action id="CheckinProject" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.History.Browse" />
   <action id="Console.TableResult.SelectRow" />
@@ -45,14 +51,6 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="EditorIndentSelection" />
-  <action id="EditorTextEnd">
-    <keyboard-shortcut first-keystroke="meta end" />
-    <keyboard-shortcut first-keystroke="meta down" />
-  </action>
-  <action id="EditorTextStart">
-    <keyboard-shortcut first-keystroke="meta home" />
-    <keyboard-shortcut first-keystroke="meta up" />
-  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
     <keyboard-shortcut first-keystroke="shift meta l" />
@@ -190,6 +188,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
