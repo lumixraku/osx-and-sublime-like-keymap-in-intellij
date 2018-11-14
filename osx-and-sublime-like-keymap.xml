@@ -3,8 +3,12 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="AddNewTabToTheEndMode">
-    <keyboard-shortcut first-keystroke="meta t" />
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta 9" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta alt up" />
@@ -58,15 +62,32 @@
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="1" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad1" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="2" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad2" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="3" />
+    <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad3" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="3" />
+  </action>
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="FileChooser.GotoDesktop" />
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="meta g" />
-    <keyboard-shortcut first-keystroke="meta k" />
-  </action>
   <action id="Forward" />
+  <action id="GoFmtFileAction">
+    <keyboard-shortcut first-keystroke="shift meta alt f" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="alt button1" />
@@ -107,12 +128,19 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
@@ -187,6 +215,9 @@
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="meta alt l" />
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.JumpToSource">
