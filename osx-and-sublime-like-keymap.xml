@@ -1,4 +1,4 @@
-<keymap version="1" name="OSX and Sublime Text" parent="Mac OS X 10.5+">
+<keymap version="1" name="OSX and Vscode Text" parent="Mac OS X 10.5+">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -81,10 +81,21 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta f" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
   <action id="Forward" />
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="alt c" second-keystroke="alt b" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="GoFmtFileAction">
-    <keyboard-shortcut first-keystroke="shift meta alt f" />
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
@@ -103,19 +114,21 @@
   <action id="GotoRelated" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta alt o" />
-    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceField">
     <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
+  <action id="IpnbRunAllCellsAction">
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="ManageRecentProjects">
-    <keyboard-shortcut first-keystroke="ctrl meta p" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
@@ -170,16 +183,16 @@
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta alt f" />
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
-  <action id="ReplaceInPath" />
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="RunDashboard.ShowConfigurations" />
@@ -212,6 +225,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ToggleFullScreen" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
